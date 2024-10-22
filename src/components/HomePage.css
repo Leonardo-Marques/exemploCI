@@ -1,0 +1,32 @@
+/* src/components/HomePage.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://img.freepik.com/fotos-gratis/astronomia-do-ceu-noturno-galactico-e-ciencia-combinaram-ia-generativa_188544-9656.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .home-box {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .home-box h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: #333;
+  }
+  
